@@ -852,7 +852,7 @@ body {
     gap: 10px;
   }
 }
-(max-width: 570px) {
+@media (max-width: 570px) {
   .menu__content {
     justify-content: flex-start;
     width: 100%;
