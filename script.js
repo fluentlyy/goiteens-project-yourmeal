@@ -2,8 +2,8 @@ let itemsArray = [];
 let itemsQuantity = document.querySelector(".items__quantity");
 let cartList = document.querySelector(".cart__items");
 let totalPriceElement = document.querySelector(".price");
-
 let totalPrice = 0;
+
 function addToCart(cardId) {
   let card = document.getElementById(cardId);
   let cardName = card.querySelector(".card__name").textContent;

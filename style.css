@@ -85,7 +85,7 @@ body {
 .header__bg {
   position: absolute;
   z-index: -1;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 .header__body {
   max-width: 1440px;
