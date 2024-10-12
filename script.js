@@ -66,7 +66,7 @@ function updateCart() {
 
   let cartDelivery = document.querySelector(".cart__delivery");
   if (totalPrice >= 1000) {
-    cartDelivery.style.display = "block";
+    cartDelivery.style.display = "flex";
   } else {
     cartDelivery.style.display = "none";
   }
