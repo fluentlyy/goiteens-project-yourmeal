@@ -844,30 +844,36 @@ body {
   .footer__p {
     margin-top: 52px;
   }
+  .cart__delivery {
+  }
 }
 @media (max-width: 686px) {
   .categories {
   }
   .categorie__button {
-    gap: 10px;
-  }
-}
-@media (max-width: 570px) {
-  .menu__content {
-    justify-content: flex-start;
-    width: 100%;
-  }
-  .menu__title {
-    transform: none;
-  }
-  .main__cart {
-    transform: none;
+    gap: 5px;
   }
   .main__block {
-    padding: 0 30px;
+    max-width: 640px;
   }
-  .categories {
-    padding: 0 15px;
+  .main__menu {
+    width: 100%;
+  }
+  .menu__content {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 655px) {
+  .main__block {
+    align-items: center;
+  }
+  .main__menu {
+    max-width: 475px;
+  }
+}
+@media (max-width: 491px) {
+  .menu__content {
+    gap: 19px;
   }
 }
 @media (max-width: 470px) {
@@ -890,6 +896,10 @@ body {
   }
   .header__content {
     flex-direction: column-reverse;
+  }
+  .categories {
+    width: 250px;
+    gap: 10px;
   }
   .box-1__txt-1 {
     font-family: "Nunito";
@@ -925,6 +935,10 @@ body {
     margin: 0 auto;
   }
   .main__menu {
+    width: 100%;
     align-items: flex-start;
+  }
+  .menu__content {
+    gap: 0;
   }
 }

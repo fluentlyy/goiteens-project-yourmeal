@@ -100,6 +100,9 @@ function toggleCart() {
     cartShowPrice.style.display = "none";
     cartShowBut.style.display = "none";
   }
+  if (!openCart) {
+    cartShowDelivery.style.display = "none";
+  }
 }
 
 document.querySelector(".cart__title").addEventListener("click", function () {
