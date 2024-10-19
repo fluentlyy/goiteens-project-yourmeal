@@ -871,6 +871,8 @@ body {
     max-width: 475px;
   }
 }
+@media (max-width: 540px) {
+}
 @media (max-width: 491px) {
   .menu__content {
     gap: 19px;
